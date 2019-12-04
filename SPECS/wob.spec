@@ -13,6 +13,7 @@ BuildRequires:  meson
 BuildRequires:  ninja-build
 BuildRequires:  wayland-protocols-devel
 BuildRequires:  wlroots-devel
+Requires: wlroots
 
 %description
 wob provides a screen-overlay bar that can be used in
